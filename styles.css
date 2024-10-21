@@ -1,0 +1,1629 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.first-page {
+    background-color: #ffffff; 
+}
+.matter {
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    color: #000000; 
+    line-height: 1.5;
+    margin: 10px 0; 
+    padding: 1px; 
+    background-color: #f9f9f9; 
+    
+}
+
+.divider,.divider1{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.second-page {
+    background-image: url('https://images.shiksha.com/mediadata/images/articles/1589276656phpKBeeyz.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+.second-page::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: -1;
+    opacity: 0.5; 
+}
+
+
+header {
+    height: 12px;
+}
+
+.logo-container {
+    text-align: left;
+    padding: 12px;
+}
+
+.college-logo {
+    height: 2in;
+    width: auto;
+    padding-left: 1cm;
+    padding-top: 3px;
+}
+
+main {
+    text-align: left;
+    padding: 20px;
+}
+
+body {
+
+}
+
+main h1 {
+    font-size: 3rem;
+    color: #f60008;
+    margin: 10px;
+    text-align: center;
+    padding-left: 100px;
+    padding-bottom: 0;
+}
+
+
+
+
+.divider {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-bottom: 0;
+}
+
+.programs {
+    font-size: 1.5rem;
+    color: #000000;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.divider1 {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0;
+    padding-left: 100px;
+}
+
+.atonomous {
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 0;
+}
+
+.matter {
+    font-size: 1.5rem;
+    padding-top: 2cm;
+    text-align: justify;
+}
+
+#know_more {
+    background-color: #003bb2;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 10px 6in;
+    text-align: center;
+}
+
+#know_more:hover {
+    background-color: #004a10;
+    transition: background-color 0.3s ease;
+}
+
+
+.second-page-header {
+    background-color: rgb(215, 61, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    height: 0.8in;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    right: 10px;
+}
+
+.home, .contact {
+    background-color: rgb(215, 61, 0);
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.home:hover, .contact:hover {
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+
+
+.red-strip {
+    background-color: #a00005; 
+    padding: 1px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.strip-button {
+    background-color: #a00005;
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 150px; 
+    text-align: center;
+}
+
+.strip-button:hover {
+    background-color: #a00005;
+    color: rgb(255, 212, 70);
+    transition: background-color 0.3s ease;
+}
+
+main p {
+    font-size: 2rem;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    font-family: Lucida Calligraphy;
+    background-image: linear-gradient(to right, #a00000, #000096);
+    background-clip: text;
+    color: transparent;
+ }
+      
+
+
+.news-box {
+    background-color: #f5f5f5; 
+    border: 1px solid #ccc;    
+    border-radius: 10px;       
+    padding: 20px;             
+    width: 50%;                
+    height: 3.5in;
+    margin: 20px auto;         
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-box h2 {
+    text-align: center;
+    color: #a00005;            
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+.news-list {
+    list-style-type: none;      
+    padding-left: 0;
+}
+
+.news-list li {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #333;               
+    padding: 14px;
+    background-color: #ffffff;
+    border-left: 5px solid #a00005; 
+}
+
+footer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: #001a4d; 
+    color: #ffffff;
+    padding: 10px; 
+    text-align: center; 
+    display: flex;    
+    align-items: center; 
+    justify-content: center; 
+    z-index: 1000; 
+}
+
+footer p {
+    margin-right: 10px;
+}
+
+.social-media {
+    list-style-type: none;
+    padding: 0; 
+    display: flex; 
+    margin: 0; 
+}
+
+.social-media li {
+    margin-left: 10px;
+}
+
+.social-media a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+    color: #00d9ff;  
+}
+.contact-section {
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    text-align: center;
+    color: #a00005;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+
+.contact-row {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 10px;
+}
+
+.contact-row label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-right: 5px; 
+}
+
+.contact-row p {
+    font-size: 1.2rem;
+    color: #000000;
+    margin-left: 5px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+.location {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #005eff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+
+.contact-section .contact-row {
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.contact-row label, .contact-row p {
+    display: inline-block;
+    width: auto;
+    margin: 0; 
+    color: #000000;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.strip-button {
+    background-color: #a00005;
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none; 
+    position: absolute;
+    background-color: #ffffff; 
+    min-width: 150px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+    z-index: 1;
+    left: 0; 
+    top: 100%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.dropdown-content li {
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    font-size: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-content li:hover {
+    background-color: #f0f0f0;
+    color: #0015ff;
+}
+
+
+.engineering-cse {
+    
+    color: #333; 
+    padding: 20px; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.engineering-cse h1 {
+    font-size: 2.5rem;
+    color: #b70000; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.engineering-cse p {
+    font-size: 1.2rem; 
+    line-height: 1.6; 
+    margin-bottom: 15px;
+    text-align: justify; 
+    color: #000000;
+}
+
+
+body.engineering-cse {
+    position: relative; 
+    margin: 0;
+    min-height: 100vh; 
+}
+
+body.engineering-cse::before {
+    content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://img.freepik.com/free-vector/big-data-background_1182-2053.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(3px);
+    z-index: -1; 
+    transform: scale(1.1);
+}
+
+.content {
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.317);
+    z-index: 1;
+    color: white; 
+    padding: 20px;
+}
+
+
+
+
+.no-underline {
+    text-decoration: none;
+    color: inherit; 
+}
+
+#continue-browse {
+    background-color: #001236; 
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 8px;
+    cursor: pointer; 
+    display: block; 
+    margin: 20px auto;
+    text-align: center;
+}
+
+#continue-browse:hover {
+    background-color: #004a10; 
+    transition: background-color 0.3s ease;
+}
+
+.engineering-aiml {
+    background-color: #f9f9f9;
+    color: #333; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.engineering-aiml h1 {
+    font-size: 2.5rem; 
+    color: #d60000; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.engineering-aiml p {
+    font-size: 1.2rem; 
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify; 
+    color: rgb(0, 0, 0);
+}
+
+
+
+body.engineering-aiml {
+    position: relative; 
+    margin: 0;
+    min-height: 100vh; 
+}
+
+body.engineering-aiml::before {
+    content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcNqUwYdnyDjBCug4-JUs4q6InsgQhUTmeFw&s');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(2px);
+    z-index: -1; 
+    transform: scale(1.1);
+}
+
+.content {
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.153);
+    z-index: 1;
+    color: white; 
+    padding: 20px;
+}
+
+
+
+
+.no-underline {
+    text-decoration: none;
+    color: inherit; 
+}
+
+#continue-browse {
+    background-color: #003bb2;
+    color: white;
+    font-size: 1rem; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    display: block; 
+    margin: 20px auto; 
+    text-align: center; 
+}
+
+#continue-browse:hover {
+    background-color: #004a10; 
+    transition: background-color 0.3s ease; 
+}
+
+.csit {
+    background-color: #f9f9f9; 
+    color: #333; 
+    padding: 20px; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.csit h1 {
+    font-size: 2.5rem; 
+    color: #003bb2; 
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.csit p {
+    font-size: 1.2rem; 
+    line-height: 1.6; 
+    margin-bottom: 15px;
+    text-align: justify; 
+    color: #000000;
+}
+
+
+body.csit {
+    position: relative; 
+    margin: 0;
+    min-height: 100vh; 
+}
+
+body.csit::before {
+    content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://png.pngtree.com/background/20211217/original/pngtree-light-blue-radial-data-information-technology-background-picture-image_1598040.jpg'); /* Your new background image */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    filter: blur(3px); 
+    z-index: -1; 
+    transform: scale(1.1); 
+}
+
+.content {
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.317);
+    z-index: 1;
+    color: white; 
+    padding: 20px;
+}
+
+
+
+
+.no-underline {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+#continue-browse {
+    background-color: #003bb2; 
+    color: white; 
+    font-size: 1rem;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer; 
+    display: block; 
+    margin: 20px auto; 
+    text-align: center;
+}
+
+#continue-browse:hover {
+    background-color: #004a10;
+    transition: background-color 0.3s ease; 
+}
+
+.csbs {
+    background-color: #f5f7fa; 
+    color: #2c3e50; 
+    padding: 20px; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.csbs h1 {
+    font-size: 2.5rem;
+    color: #2980b9; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.csbs p {
+    font-size: 1.2rem; 
+    line-height: 1.6; 
+    margin-bottom: 15px; 
+    text-align: justify; 
+    color: #000000;
+}
+
+
+body.csbs {
+    position: relative; 
+    margin: 0;
+    min-height: 100vh; 
+}
+
+body.csbs::before {
+    content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20230112/pngtree-light-color-light-sensitive-chip-technology-background-image_1509253.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    filter: blur(3px); 
+    z-index: -1; 
+    transform: scale(1.1); 
+}
+
+.content {
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.317);
+    z-index: 1;
+    color: white; 
+    padding: 20px;
+}
+
+
+
+
+.no-underline {
+    text-decoration: none;
+    color: inherit; 
+}
+
+
+#continue-browse {
+    background-color: #2980b9; 
+    color: white; 
+    font-size: 1rem;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 8px;
+    cursor: pointer; 
+    display: block; 
+    margin: 20px auto; 
+    text-align: center; 
+}
+
+
+#continue-browse:hover {
+    background-color: #1a5276; 
+    transition: background-color 0.3s ease; 
+}
+
+.ece {
+    background-color: #f4f9f9;
+    color: #2c3e50; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.ece h1 {
+    font-size: 2.5rem; 
+    color: #000000; 
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.ece p {
+    font-size: 1.2rem; 
+    line-height: 1.6; 
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #000000;
+}
+
+
+body.ece {
+    position: relative; 
+    margin: 0;
+    min-height: 100vh; 
+}
+
+body.ece::before {
+    content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://javasystems.net/images/sliders/slider05.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    filter: blur(3px); 
+    z-index: -1; 
+    transform: scale(1.1); 
+}
+
+.content {
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.317);
+    z-index: 1;
+    color: white; 
+    padding: 20px;
+}
+
+
+
+
+.no-underline {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+#continue-browse {
+    background-color: #005b96; 
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    display: block; 
+    margin: 20px auto; 
+    text-align: center; 
+}
+
+#continue-browse:hover {
+    background-color: #003b64;
+    transition: background-color 0.3s ease;
+}
+
+.eee {
+    background-color: #f1f4f9; 
+    color: #2a2a2a;
+    padding: 20px; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.eee h1 {
+    font-size: 2.5rem;
+    color: #600000; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.eee p {
+    font-size: 1.2rem; 
+    line-height: 1.6; 
+    margin-bottom: 15px;
+    text-align: justify; 
+    color: #000000;
+}
+
+
+body.eee {
+    position: relative; 
+    margin: 0;
+    min-height: 100vh; 
+}
+
+body.eee::before {
+    content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://t4.ftcdn.net/jpg/07/11/81/51/360_F_711815167_92IhuXuKW0nHJzLGngizrCYOegJY1g1Y.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    filter: blur(3px); 
+    z-index: -1; 
+    transform: scale(1.1); 
+}
+
+.content {
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.317);
+    z-index: 1;
+    color: white; 
+    padding: 20px;
+}
+
+
+
+.no-underline {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+#continue-browse {
+    background-color: #34495e; 
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 8px;
+    cursor: pointer; 
+    display: block; 
+    margin: 20px auto;
+    text-align: center; 
+}
+
+#continue-browse:hover {
+    background-color: #2c3e50; 
+    transition: background-color 0.3s ease; 
+}
+
+.mech {
+    background-color: #f0f4f8; 
+    color: #2c3e50; 
+    padding: 20px; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mech h1 {
+    font-size: 2.5rem; 
+    color: #000000; 
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.mech p {
+    font-size: 1.2rem; 
+    line-height: 1.6; 
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #000000;
+}
+
+body.mech {
+    position: relative; 
+    margin: 0;
+    min-height: 100vh; 
+}
+
+body.mech::before {
+    content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://thumbs.dreamstime.com/b/mechanical-background-golden-gears-cogwheels-generative-ai-mechanical-background-gears-cogwheels-326791491.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    filter: blur(3px); 
+    z-index: -1; 
+    transform: scale(1.1); 
+}
+
+.content {
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.34);
+    z-index: 1;
+    color: white; 
+    padding: 20px;
+}
+
+
+
+.no-underline {
+    text-decoration: none;
+    color: inherit; 
+}
+
+#continue-browse {
+    background-color: #2a6496;
+    color: white; 
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer; 
+    display: block; 
+    margin: 20px auto;
+    text-align: center; 
+}
+
+#continue-browse:hover {
+    background-color: #1e4e70; 
+    transition: background-color 0.3s ease;
+}
+
+.civil {
+    background-color: #eef1f6;
+    color: #34495e; 
+    padding: 20px; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.civil h1 {
+    font-size: 2.5rem; 
+    color: #000000; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.civil p {
+    font-size: 1.2rem; 
+    line-height: 1.6; 
+    margin-bottom: 15px;
+    text-align: justify; 
+}
+
+body.civil {
+    position: relative; 
+    margin: 0;
+    min-height: 100vh; 
+}
+
+body.civil::before {
+    content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/013/625/941/small/building-construction-site-with-a-tower-crane-and-engineer-and-workers-paper-cut-style-vector.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    filter: blur(3px); 
+    z-index: -1; 
+    transform: scale(1.1); 
+}
+
+.content {
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.317);
+    z-index: 1;
+    color: black; 
+    padding: 20px;
+}
+
+
+
+.no-underline {
+    text-decoration: none;
+    color: inherit; 
+}
+
+#continue-browse {
+    background-color: #2980b9;
+    color: white; 
+    font-size: 1rem; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 8px;
+    cursor: pointer; 
+    display: block; 
+    margin: 20px auto; 
+    text-align: center;
+}
+
+#continue-browse:hover {
+    background-color: #1e6c96;
+    transition: background-color 0.3s ease; 
+}
+
+
+
+.mba {
+    background-color: #eef1f6;
+    color: #34495e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mba h1 {
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mba p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #000000;
+}
+
+body.mba {
+    position: relative; 
+    margin: 0;
+    min-height: 100vh; 
+}
+
+body.mba::before {
+    content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20220818/pngtree-businessman-in-executive-education-concept-mba-hardcover-knowledge-photo-image_33299276.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    filter: blur(3px); 
+    z-index: -1; 
+    transform: scale(1.1); 
+}
+
+.content {
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.317);
+    z-index: 1;
+    color: black; 
+    padding: 20px;
+}
+
+
+
+.no-underline {
+    text-decoration: none;
+    color: inherit;
+}
+
+#continue-browse {
+    background-color: #2980b9;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#continue-browse:hover {
+    background-color: #1e6c96;
+    transition: background-color 0.3s ease;
+}
+
+
+.bpharm {
+    background-color: #eef1f6;
+    color: #34495e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bpharm h1 {
+    font-size: 2.5rem;
+    color: #2980b9;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bpharm p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #000000;
+}
+
+
+body.mpharm {
+    position: relative; 
+    margin: 0;
+    min-height: 100vh; 
+}
+
+body.mpharm::before {
+    content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGqXqOUEpvU99wyd6bEVGC-YBASiJZL43Ztw&s'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    filter: blur(3px); 
+    z-index: -1; 
+    transform: scale(1.1); 
+}
+
+.content {
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.317);
+    z-index: 1;
+    color: black; 
+    padding: 20px;
+}
+
+
+.no-underline {
+    text-decoration: none;
+    color: inherit;
+}
+
+#continue-browse {
+    background-color: #2980b9;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#continue-browse:hover {
+    background-color: #1e6c96;
+    transition: background-color 0.3s ease;
+}
+
+
+.mpharm {
+    background-color: #eef1f6;
+    color: #34495e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mpharm h1 {
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mpharm p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #000000;
+}
+
+body.bpharm {
+    position: relative; 
+    margin: 0;
+    min-height: 100vh; 
+}
+
+body.bpharm::before {
+    content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGqXqOUEpvU99wyd6bEVGC-YBASiJZL43Ztw&s'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    filter: blur(3px); 
+    z-index: -1; 
+    transform: scale(1.1); 
+}
+
+.content {
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.317);
+    z-index: 1;
+    color: black; 
+    padding: 20px;
+}
+
+
+.no-underline {
+    text-decoration: none;
+    color: inherit;
+}
+
+#continue-browse {
+    background-color: #2980b9;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#continue-browse:hover {
+    background-color: #1e6c96;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+.pharmd {
+    background-color: #eef1f6;
+    color: #34495e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pharmd h1 {
+    font-size: 2.5rem;
+    color: #2980b9;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pharmd p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+body.pharmd {
+    position: relative; 
+    margin: 0;
+    min-height: 100vh; 
+}
+
+body.pharmd::before {
+    content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGqXqOUEpvU99wyd6bEVGC-YBASiJZL43Ztw&s'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    filter: blur(3px); 
+    z-index: -1; 
+    transform: scale(1.1); 
+}
+
+.content {
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.317); 
+    z-index: 1;
+    color: black; 
+    padding: 20px;
+}
+
+
+
+.no-underline {
+    text-decoration: none;
+    color: inherit;
+}
+
+#continue-browse {
+    background-color: #2980b9;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#continue-browse:hover {
+    background-color: #1e6c96;
+    transition: background-color 0.3s ease;
+}
+.engineering-cse h1 {
+    font-size: 2.5rem;
+    color: #2980b9;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.engineering-cse p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+body.engineering-cse {
+    position: relative; 
+    margin: 0;
+    min-height: 100vh; 
+}
+
+body.engineering-cse::before {
+    content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.jpg?s=612x612&w=0&k=20&c=NUf6D4ZgRm6XC7Av2WwmkW5RkHNKbnIgulwmvbEshac='); /* Updated background image */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    filter: blur(3px); 
+    z-index: -1; 
+    transform: scale(1.1); 
+}
+
+.content {
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.317); 
+    z-index: 1;
+    color: black; 
+    padding: 20px;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: inherit;
+}
+
+#continue-browse {
+    background-color: #2980b9;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#continue-browse:hover {
+    background-color: #1e6c96;
+    transition: background-color 0.3s ease;
+}
+
+.ece h1 {
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ece p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+body.ece {
+    position: relative; 
+    margin: 0;
+    min-height: 100vh; 
+}
+
+body.ece::before {
+    content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://wallpapercave.com/wp/wp3720966.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    filter: blur(3px); 
+    z-index: -1; 
+    transform: scale(1.1); 
+}
+
+.content {
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.317); 
+    z-index: 1;
+    color: black; 
+    padding: 20px;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: inherit;
+}
+
+#continue-browse {
+    background-color: #2980b9;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#continue-browse:hover {
+    background-color: #1e6c96;
+    transition: background-color 0.3s ease;
+}
+
+
+body.transport-page {
+    margin: 0;
+    min-height: 100vh;
+}
+
+body.transport-page::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://www.sreedattha.ac.in/sdbn/images/transport.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: blur(3px);
+    z-index: -1;
+    transform: scale(1.1);
+}
+
+body.transport-page main {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+    color: black;
+    padding: 20px; 
+    margin: 50px auto; 
+    border-radius: 10px;
+    max-width: 800px; 
+    text-align: center; 
+}
+
+body.transport-page h2 {
+    font-size: 2.5rem;
+    color: #2980b9;
+}
+
+body.transport-page h3 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+body.transport-page p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+body.transport-page ul {
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+body.transport-page li {
+    margin-bottom: 10px;
+}
+
+body.hostel-page {
+    margin: 0;
+    min-height: 100vh;
+}
+
+body.hostel-page::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://www.sreedattha.ac.in/sdes/catbnr/bimg61f52575a587d.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: blur(3px);
+    z-index: -1;
+    transform: scale(1.1);
+}
+
+body.hostel-page main {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.514);
+    z-index: 1;
+    color: black;
+    padding: 20px; 
+    margin: 50px auto; 
+    border-radius: 10px;
+    max-width: 800px; 
+    text-align: center; 
+}
+
+body.hostel-page h2 {
+    font-size: 2.5rem;
+    color: #2980b9;
+}
+
+body.hostel-page h3 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+body.hostel-page p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+body.hostel-page ul {
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+body.hostel-page li {
+    margin-bottom: 10px;
+}
